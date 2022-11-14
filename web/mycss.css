@@ -1,0 +1,522 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 8, 2022, 10:49:57 AM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 7, 2022, 7:18:25 PM
+    Author     : Hoang Anh
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 30, 2022, 2:10:51 PM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 30, 2022, 2:03:07 PM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 30, 2022, 1:51:32 PM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 30, 2022, 1:49:22 PM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 26, 2022, 9:44:31 AM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 25, 2022, 7:29:05 PM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 25, 2022, 10:10:20 AM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2022, 8:51:13 PM
+    Author     : Hoang Anh
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2022, 2:20:33 PM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2022, 2:04:53 PM
+    Author     : Hoang Anh
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2022, 2:03:09 PM
+    Author     : Hoang Anh
+*/
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+#topnavbar{
+    color: #ccc;
+    border-bottom: 1px solid #e9e9e9;
+    position: relative;
+    z-index: 500;
+    margin: 0px 30px;
+    padding: 0px 15px;
+    font-size: 14px;
+    
+}
+#textright{
+    text-align: right!important;
+}
+#nav1 a{
+    text-decoration: none;
+    padding: 10px 0;
+    display: inline-block;
+    color:rgb(96, 61, 46);
+}
+nav1 #topbaritem{
+    padding: 10px 0px 0px 5px;
+}
+#nav1 #topbaritem:first-child{
+   margin: 0px 12px 0px 0px;}
+#nav1{
+    justify-content: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    line-height: 1;
+}
+
+#nav li{
+    padding: 0px 5px 0px 0px;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#header {
+    height: 46px;
+    background-color: #E1CFBB;
+}
+
+#nav > li{
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+     color:rgb(96, 61, 46);
+    text-transform: uppercase;
+}
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: rgb(96, 61, 46);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: auto;
+    height: auto;
+}
+#nav li:hover a{
+     color: #fff;
+    background-color: rgb(96, 61, 46);
+    display: inline-block;
+}
+.content{
+     margin-top: 75px;
+}
+#nav li:hover .subnav{
+    display: block;
+    background-color:rgb(96, 61, 46); 
+}
+#nav, .subnav{
+    list-style-type: none;
+}
+.cart h3,
+.content a,
+.content p,
+.content h3{
+   padding: 5px 10px;
+    margin-bottom: 5px;
+}
+#header1{
+     height: 46px;
+    background-color: #E1CFBB;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1;
+}
+.search .search-btn,
+#topnavbar .search-btn{
+    float: right;
+    padding: 5px 21px;
+    cursor: pointer;
+    margin-top: 10px
+}
+.search .search-icon:hover,
+#topnavbar .search-icon:hover{
+   background-color: #E1CFBB;
+    color: #000;
+    cursor: pointer;
+}
+.search .search-icon,
+#topnavbar .search-icon{
+    padding: 0px 5px;
+}
+#topnavbar input:first-child{
+     width: 300px;
+    height: 30px;
+}
+#topnavbar select,
+#topnavbar input{
+    border: 3px solid #E1CFBB;
+    border-radius: 5px;
+    height: 30px;
+     color:rgb(96, 61, 46);
+}
+#slider img {
+    max-width: 100%;
+    background:  top center /cover no-repeat;
+    position: relative;
+}
+
+.sort_order{
+    margin-bottom: 20px;
+    background: #eaeaea;
+    padding: 5px 10px;
+}
+.sort_order .order_sort{
+    display: inline-block;
+    position: relative;
+    padding: 3px 10px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    margin-left: 8px;
+    color: #333;
+}
+.sort_order .order_sort a{
+    color: #333333;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+.order_sort_active a{
+    text-decoration: none;
+    color: #fff;
+}
+.order_sort_active{
+    display: inline-block;
+    position: relative;
+    padding: 3px 10px;
+    background: rgb(96, 61, 46);
+    border: 1px solid #e1e1e1;
+    margin-left: 8px;
+    
+    text-decoration: none;
+}
+#footer{
+    margin-top: 1000px;
+    color:white;
+    padding: 64px 16px; 
+    text-align: center; 
+    background: rgb(93, 61, 46);
+}
+#footer p{
+    margin-bottom: 10px;
+}
+.product{
+    margin-top: 50px;
+}
+.item{
+    width: 21%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    box-shadow: 1px 1px 4px 5px rgb(145 138 138);
+    border-radius: 1%;
+    min-height: 350px;
+    overflow: hidden;
+}
+.item{
+    text-align: center;
+}
+.item img{
+        padding: 15px;
+    width: 100%;
+    height: 300px;
+    border-radius: 1%;
+}
+.item h3{
+    color: rgb(96, 61, 46);
+    margin-bottom: 4%;
+}
+.item p{
+    color: rgb(230, 81, 11);
+    font-weight: bold;
+    margin-bottom: 4%;
+   
+}
+.addtobuy{
+    margin-top: 10px;
+}
+.item a{
+    padding: 15px 5px;
+    width: 30%;
+    color:rgb(93, 61, 46) ;
+    margin: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    text-decoration: none;
+     background-color: #E1CFBB; 
+    border-radius: 5%;
+    
+}
+.profile .mybtn:hover,
+.submit .mybtn:hover,
+.cart a:hover,
+.content a:hover,
+.information .mybtn:hover, .order  a:hover,
+.item a:hover{
+    background-color: rgb(93, 61, 46);
+    color: #fff;
+    border: none;
+}
+.change,
+.login,
+.register{
+   max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px 112px;
+
+    
+}
+.change input,
+.login input,
+.information input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.information .check{
+     width: 300px;
+    height: 20px;
+}
+.submit,
+.change .save,
+.information .create{
+    text-align: center;
+}
+.change .profile,
+.login .information,.order a,
+.register .information{
+    margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.profile label,
+.information label{
+    padding: 16px;
+}
+.accounts,
+.formlogin h1,
+.register h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 10px 0px;
+    letter-spacing: 4px;
+    text-align: center
+}
+.submit .mybtn,
+.profile .mybtn,
+.information .mybtn{
+   margin-bottom: 16px;
+   padding: 10px; 
+   background-color: #E1CFBB;
+   border: none;
+   width: 100%;
+   color: #fff;
+   font-size: 15px;
+   cursor: pointer;
+    width: 250px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: 'Ephesis',cursive; 
+    margin: 10px 0px; 
+    text-align: center;
+    color: rgb(230, 81, 11);
+    font-size: 48px;
+}
+.order { border: 1px solid #e6e6e6; width:100%; margin: 1%; line-height: 25px;}
+.order tr:first-child{ width:100%;font-weight: 700; color: #006666;}
+.order td{ color:black; width: 15%;}
+.content .view{
+    color: rgb(93, 61, 46);
+    font-weight: 700;
+    text-decoration: none;
+}
+.order a{
+    text-decoration: none;
+    color: rgb(93, 61, 46);
+    font-weight: 700;
+     background-color: #E1CFBB;
+     border: 3px solid #E1CFBB;
+}
+.order .plantimg{
+    height: 150px;
+    width: 200px;
+}
+.cart{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.cart a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgb(93, 61, 46);
+    font-weight: 700;
+}
+.order .total{
+    color: rgb(93, 61, 46);
+    font-weight: 900;
+}
+.welcome-part .photo-div {
+  padding: 100px 0 30px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photo-div .photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.welcome-part h1 {
+  font-size: 4vw;
+  font-weight: 700;
+  padding: 0 0 10px 0;
+  font-family: "Gugi", cursive;
+}
+
+.welcome-part h1 span {
+  color:#800000;
+	font-size: 3vw
+}
+
+.welcome-part p {
+
+	font-size: 2vw;
+}
+.container .welcome-sec .about {
+  	width: 500px;
+  	text-align: center;
+	margin: -200px auto 0 auto;
+}
+.container .welcome-sec {
+    background-color: #FFF8DC;
+    color: #FFFFFF;
+    text-align: center;
+    height: 90vh;
+    position: relative;
+}
+.search{
+    margin-top: 75px;
+}
+
